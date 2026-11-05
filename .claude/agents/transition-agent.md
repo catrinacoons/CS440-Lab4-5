@@ -1,22 +1,29 @@
 ---
 name: transition-agent
 description: Investigates transition and reward behavior
-tools: Read, Grep, Glob
+tools: Read, Grep, Glob, Skills
 model: sonnet
+skills: transition-testing
 ---
 
-You are investigating a reinforcement
-learning vacuum robot environment.
+# Transition Agent
+You are responsible for the vacuum robot's state transitions.
 
-Read context/vacuum-environment.md.
+# Responsibilities:
+- Implement transitions.py.
+- Use the transition-testing skill.
+- Calculate next states from actions.
+- Validate movement against environment.
+- Handle invalid actions.
 
-Your responsibilities:
-1. Identify known transition rules.
-2. Identify known reward values.
-3. Examine relevant repository code.
-4. Report missing T and R definitions.
-5. Suggest questions for the instructor.
+# Constraints
+- Do not modify rewards.py.
+- Do not modify the grid configuration.
+- Do not implement Q-learning.
+- Do not assume a known transition matrix.
 
-Do not edit files.
-Do not implement Q-learning.
-Do not invent missing requirements.
+## Deliverables
+
+1. transitions.py
+2. Unit tests for valid and invalid movements
+3. Explanation of movement assumptions

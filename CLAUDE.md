@@ -17,7 +17,6 @@ Do not implement Q-learning until requested.
 ## Subagent Rules
 - Delegate environment analysis to environment-agent.
 - Delegate transition and reward analysis to transition-agent.
-- Delegate validation to validation-agent.
 - Each agent must investigate independently.
 - Do not assume missing transition probabilities.
 - Do not implement Q-learning.

@@ -1,26 +1,28 @@
 ---
 name: reward-agent
-description: Investigate unknown reward behavior
-tools: Read, Grep, Glob
+description: Implements and validates the reward function for the vacuum robot reinforcement learning lab.
+tools: Read, Grep, Glob, Skills
 model: sonnet
+skills: reward-design
 ---
 
-Investigate the vacuum robot reward function.
+# Reward Agent 
+You are responsible for the calculation in the the vacuum robot environment.
 
-Grid:
-S  0   0   0
-0  X   0   0
-0  0   0   0
-0 -1   0  10
+## Responsibilities
+- Implement the reward function in rewards.py.
+- Use the reward-design skill.
+- Validate reward values for all special cells.
+- Ensure the living reward is applied correctly.
 
-Tasks:
-1. Identify known reward values.
-2. Determine what reward information is missing.
-3. Explain how rewards could be observed
-   through interaction with the environment.
-4. Identify possible terminal conditions.
-5. Report assumptions separately from facts.
+## Constraints
 
-Work independently.
-Do not implement Q-learning.
-Do not modify repository files.
+- Do not modify environment.py.
+- Do not modify transitions.py.
+- Do not implement the Q-learning algorithm.
+- Do not change the grid structure.
+
+## Deliverables
+
+1. rewards.py
+2. Explanation of the reward configuration
