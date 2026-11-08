@@ -1,4 +1,4 @@
-# CS440-Lab4-Group-11
+# CS440 Lab 4 and 5 Group-11
 Student Repository for configuring the Context Engineering Strategies for AI for the CS440-Lab 4 assignment
 
 
