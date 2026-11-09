@@ -3,6 +3,8 @@ name: environment-agent
 description: Analyze the vacuum robot grid and valid actions
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - grid-validation
 ---
 
 Analyze the following 4x4 vacuum robot grid:
