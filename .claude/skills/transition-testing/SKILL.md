@@ -47,7 +47,6 @@ These are not a learned transition model.
 2. Use environment validation to check the possible next state.
 3. Return the observed next state.
 4. Keep transition logic separate from rewards.
-5. Do not implement Q-learning in this skill.
 6. Make movement behavior independently testable.
 
 ## Constraints

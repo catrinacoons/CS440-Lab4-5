@@ -19,7 +19,7 @@ You are responsible for the calculation in the the vacuum robot environment.
 
 - Do not modify environment.py.
 - Do not modify transitions.py.
-- Do not implement the Q-learning algorithm.
+
 - Do not change the grid structure.
 
 ## Deliverables

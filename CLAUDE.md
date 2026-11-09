@@ -9,8 +9,12 @@ Q-learning is out of scope for this lab.
 Read @context/vacuum-environment.md
 before investigating the vacuum robot.
 
+Also implement reward-agent
+
 Use isolated subagents for independent
 investigations.
+
+Select values for the living reward, discount factor, learning rate, and epsilon. 
 
 Do not implement Q-learning until requested.
 

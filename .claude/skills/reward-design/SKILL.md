@@ -55,7 +55,6 @@ The special-cell rewards replace the living reward instead of being added to it.
 6. Make reward values configurable.
 
 ## Constraints
-- Do not implement Q-learning in this skill.
 - Do not modify the environment layout.
 - Do not calculate transition probabilities.
 - Do not assign rewards to invalid states.

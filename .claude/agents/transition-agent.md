@@ -19,7 +19,6 @@ You are responsible for the vacuum robot's state transitions.
 # Constraints
 - Do not modify rewards.py.
 - Do not modify the grid configuration.
-- Do not implement Q-learning.
 - Do not assume a known transition matrix.
 
 ## Deliverables
