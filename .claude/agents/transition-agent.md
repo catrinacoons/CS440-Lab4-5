@@ -3,6 +3,9 @@ name: transition-agent
 description: Investigates transition and reward behavior
 tools: Read, Grep, Glob
 model: sonnet
+skills:
+  - transition-testing
+  - reward-design
 ---
 
 You are investigating a reinforcement
