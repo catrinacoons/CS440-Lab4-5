@@ -1,6 +1,11 @@
 # CS440 Lab 4 and 5 Group-11
 Student Repository for configuring the Context Engineering Strategies for AI for the CS440-Lab 4 assignment
 
+To run the lab, use:
+py q_learning.py for Windows,
+
+python3 qlearning.py for Mac
+
 
 ## Write (Persistent Memory Architecture) Overview:
 Context Information is saved outside the window, in files, so the context persists. The AI forgets everything when a session ends, so this ensures that the AI will re-read the context files each time the session is started anew, so it is re-given the necessary information.   
