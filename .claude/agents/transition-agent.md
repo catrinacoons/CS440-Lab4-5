@@ -1,7 +1,7 @@
 ---
 name: transition-agent
 description: Investigates transition and reward behavior
-tools: Read, Grep, Glob
+tools: Read, Grep, Glob, Bash
 model: sonnet
 skills:
   - transition-testing
